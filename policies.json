@@ -1,0 +1,22 @@
+{
+  "policies": [
+    {
+      "category": "Meals",
+      "limit": 50,
+      "currency": "USD",
+      "rules": "Receipts required for all meals. Alcohol is not reimbursable."
+    },
+    {
+      "category": "Travel",
+      "limit": 500,
+      "currency": "USD",
+      "rules": "Must fly economy class. Business class only allowed for flights over 8 hours."
+    },
+    {
+      "category": "Office Supplies",
+      "limit": 100,
+      "currency": "USD",
+      "rules": "Pre-approval required for electronics or software."
+    }
+  ]
+}

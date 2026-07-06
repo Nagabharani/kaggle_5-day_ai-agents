@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  expense_agent:
+    build: .
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    volumes:
+      - .:/app
+    # Default command tests the generated mock receipt
+    command: ["check-receipt", "receipt.jpg"]
